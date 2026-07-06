@@ -1,6 +1,5 @@
 import streamlit as st,pandas as pd
 from mlxtend.frequent_patterns import association_rules,fpgrowth
-from tomlkit import item
 
 
 st.set_page_config(page_title="Market Basket Analysis", page_icon=":bar_chart:", layout="wide")
