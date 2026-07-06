@@ -1,6 +1,8 @@
-import streamlit as st,pandas as pd,numpy as np,matplotlib.pyplot as plt,seaborn as sns,plotly.express as px,plotly.graph_objects as go
-from mlxtend.frequent_patterns import apriori, association_rules,fpgrowth
+import streamlit as st,pandas as pd
+from mlxtend.frequent_patterns import association_rules,fpgrowth
 from tomlkit import item
+
+
 st.set_page_config(page_title="Market Basket Analysis", page_icon=":bar_chart:", layout="wide")
 st.title("Market Basket Analysis")
 
